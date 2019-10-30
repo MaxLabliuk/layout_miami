@@ -1,0 +1,28 @@
+.input {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #393939;
+  background-color: #eee;
+  padding: 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-box-shadow: 0 2px 4px rgba(196, 14, 14, 0);
+          box-shadow: 0 2px 4px rgba(196, 14, 14, 0);
+  outline: 2px solid #646060; }
+  .input::-webkit-input-placeholder {
+    color: inherit; }
+  .input::-moz-placeholder {
+    color: inherit; }
+  .input:-ms-input-placeholder {
+    color: inherit; }
+  .input::-ms-input-placeholder {
+    color: inherit; }
+  .input::placeholder {
+    color: inherit; }
+  .input_textarea {
+    height: 166px; }
+
+/*# sourceMappingURL=input.css.map */

@@ -1,0 +1,10 @@
+.link {
+  color: #00aaef;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  outline-color: rgba(213, 197, 170, 0.3); }
+  .link:hover {
+    color: #2f80ed; }
+
+/*# sourceMappingURL=link.css.map */

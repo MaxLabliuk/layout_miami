@@ -1,0 +1,28 @@
+.consultation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .consultation__content {
+    width: 480px; }
+  .consultation__title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 24px;
+    font-weight: 400; }
+  .consultation__form {
+    width: 350px; }
+
+@media screen and (max-width: 999px) {
+  .consultation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .consultation__content, .consultation__form {
+      width: 100%;
+      margin-bottom: 20px; } }
+
+/*# sourceMappingURL=consultation.css.map */

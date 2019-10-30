@@ -1,0 +1,31 @@
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .contact__content {
+    font-size: 24px;
+    width: 280px; }
+  .contact__address {
+    margin-top: 20px; }
+  .contact__link {
+    color: black;
+    outline-color: rgba(213, 197, 170, 0.3); }
+    .contact__link:hover {
+      color: #2f80ed; }
+  .contact__form {
+    width: 380px; }
+
+@media screen and (max-width: 999px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .contact__content, .contact__form {
+      width: 100%;
+      margin-bottom: 20px; } }
+
+/*# sourceMappingURL=contact.css.map */

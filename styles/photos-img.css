@@ -1,0 +1,23 @@
+.photos__img_wide_left:first-child {
+  width: calc(67% - 10px); }
+
+.photos__img_wide_left:last-child {
+  width: calc(33% - 10px); }
+
+.photos__img_wide_right:first-child {
+  width: calc(33% - 10px); }
+
+.photos__img_wide_right:last-child {
+  width: calc(67% - 10px); }
+
+@media screen and (max-width: 500px) {
+  .photos__img_wide_left:first-child {
+    width: 100%; }
+  .photos__img_wide_left:last-child {
+    width: 100%; }
+  .photos__img_wide_right:first-child {
+    width: 100%; }
+  .photos__img_wide_right:last-child {
+    width: 100%; } }
+
+/*# sourceMappingURL=photos-img.css.map */

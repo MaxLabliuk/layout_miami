@@ -1,0 +1,51 @@
+.header {
+  height: 575px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-weight: 400;
+  line-height: 1; }
+  .header__nav {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0; }
+  .header__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 35px;
+    left: calc(50% - 57.5px);
+    color: white; }
+  .header__phone {
+    margin: 0 82px; }
+  .header__phone, .header__action {
+    position: relative;
+    top: 47px; }
+  .header__link {
+    color: white;
+    border-bottom: 1px dashed;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    text-transform: uppercase;
+    outline-color: rgba(213, 197, 170, 0.3); }
+    .header__link:hover {
+      color: #d5c5aa; }
+    .header__link-number {
+      color: white;
+      outline-color: rgba(213, 197, 170, 0.3); }
+      .header__link-number:hover {
+        color: #d5c5aa; }
+
+@media screen and (max-width: 999px) {
+  .header__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .header__phone {
+    margin: -30px 0 10px; } }
+
+/*# sourceMappingURL=header.css.map */

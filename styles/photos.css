@@ -1,0 +1,26 @@
+.photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .photos__img {
+    width: calc(50% - 10px);
+    height: 260px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center; }
+
+@media screen and (max-width: 500px) {
+  .photos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .photos__img {
+      width: 100%;
+      margin: 10px 0; } }
+
+/*# sourceMappingURL=photos.css.map */
